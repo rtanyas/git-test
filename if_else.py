@@ -3,5 +3,5 @@ TEST_MODULE2 = "test_module2"
 
 version = (6, 7)
 
-service = (MODULE1 if version < (6, 10)
-           else MODULE2)
+service = (TEST_MODULE1 if version < (6, 10)
+           else TEST_MODULE2)
